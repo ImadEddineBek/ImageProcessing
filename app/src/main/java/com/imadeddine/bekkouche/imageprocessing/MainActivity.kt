@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         imageView5.setColorFilter(Color.YELLOW,PorterDuff.Mode.DARKEN)
         imageView6.setColorFilter(Color.BLACK,PorterDuff.Mode.ADD)
         imageView7.setColorFilter(Color.BLACK,PorterDuff.Mode.MULTIPLY)
-        imageView8.setColorFilter(Color.BLACK,PorterDuff.Mode.DST_OVER)
+        imageView8.setColorFilter(Color.MAGENTA,PorterDuff.Mode.OVERLAY)
         imageView9.setBackgroundColor(Color.DKGRAY)
         imageView10.setBackgroundColor(Color.MAGENTA)
     }
